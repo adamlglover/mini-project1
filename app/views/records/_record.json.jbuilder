@@ -1,0 +1,2 @@
+json.extract! record, :id, :c_id, :c_fn, :c_ln, :c_address, :c_state, :c_zip, :p_num, :p_descript, :p_instock, :p_date, :p_sold, :p_qoh, :p_price, :a_id, :a_date, :a_paid, :i_id, :i_order_size, :i_vendor_fn, :i_vendor_ln, :i_vendor_email, :i_order_date, :created_at, :updated_at
+json.url record_url(record, format: :json)

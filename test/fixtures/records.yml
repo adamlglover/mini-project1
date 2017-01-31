@@ -1,0 +1,49 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  c_id: 1
+  c_fn: MyString
+  c_ln: MyString
+  c_address: MyString
+  c_state: MyString
+  c_zip: 1
+  p_num: 1
+  p_descript: MyText
+  p_instock: 1
+  p_date: 2017-01-28
+  p_sold: 1
+  p_qoh: 1
+  p_price: 9.99
+  a_id: 1
+  a_date: 2017-01-28
+  a_paid: false
+  i_id: 1
+  i_order_size: 1
+  i_vendor_fn: MyString
+  i_vendor_ln: MyString
+  i_vendor_email: MyString
+  i_order_date: 2017-01-28
+
+two:
+  c_id: 1
+  c_fn: MyString
+  c_ln: MyString
+  c_address: MyString
+  c_state: MyString
+  c_zip: 1
+  p_num: 1
+  p_descript: MyText
+  p_instock: 1
+  p_date: 2017-01-28
+  p_sold: 1
+  p_qoh: 1
+  p_price: 9.99
+  a_id: 1
+  a_date: 2017-01-28
+  a_paid: false
+  i_id: 1
+  i_order_size: 1
+  i_vendor_fn: MyString
+  i_vendor_ln: MyString
+  i_vendor_email: MyString
+  i_order_date: 2017-01-28
