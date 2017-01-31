@@ -1,24 +1,15 @@
+SAD Mini Project 1 - Design an automated systems for this small business
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+Design and Create a database table showing the conversion of the customer records on the index cards into a Customer Table.
 
+Design and Create a database table showing the conversion of the products in the Warehouse into a Product and Inventory Tables.
 
-Welcome to your Rails project on Cloud9 IDE!
-
-To get started, just do the following:
-
-1. Run the project with the "Run Project" button in the menu bar on top of the IDE.
-2. Preview your new app by clicking on the URL that appears in the Run panel below (https://mini-project1-adamlglover.c9users.io/).
-
-Happy coding!
-The Cloud9 IDE team
-
-
-## Support & Documentation
-
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+Query:
+    Customer Table
+        All Customers from 2014 - 2017
+        All Customers whose accounts are overdue
+    Product Table
+        Products that sell quickly (When p_qoh <= 5)
+        Products that sell slowly (When p_qoh > 150)
+    Inventory Table
+    Accounts Payable and Receivable Tables
