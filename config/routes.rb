@@ -1,4 +1,14 @@
 Rails.application.routes.draw do
+  get 'apr/index'
+
+  get 'inventory/index'
+
+  namespace :admin do
+    resources :records
+
+    root to: "records#index"
+  end
+
   get 'customer/index'
   
   get 'customer/overdue'
